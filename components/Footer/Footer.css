@@ -1,0 +1,52 @@
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+.footer{
+    background-color: #fff;
+    max-width: 1920px;
+    margin: 50px 0 0 0;
+    padding: 100px 60px 30px 60px;
+}
+
+.footer__inner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.main-title{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.footer-block__item{
+    margin-top: 13px;
+}
+
+.footer-block__link{
+    font-size: 16px;
+}
+
+.line-decoration{
+    width: 270px;
+    height: 1px;
+    background: #999;
+    margin-top: 12px;
+    margin-bottom: 30px;
+}
+
+.line-decoration-top{
+    height: 1px;
+    background-color: #999;
+    margin-top: 150px;
+    margin-bottom: 20px;
+}
+
+.company-rights{
+    font-size: 16px;
+    margin-top: 20px;
+}
+
