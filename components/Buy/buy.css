@@ -1,0 +1,111 @@
+.buy{
+    margin: 0 auto;
+    justify-content: center;
+    display: flex;
+}
+
+body{
+    font-family: 'Inter';
+}
+
+.title_buy{
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.buy_inner{
+    max-width: 800px;
+}
+
+.buy_form{
+    border: 1px solid #999999;
+    padding: 40px;
+    border-radius: 20px;
+    margin-top: 50px;
+}
+
+
+.reg__button{
+    padding: 15px 20px;
+    background-color: yellow;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    font-size: 18px;
+    transition: 0.5s;
+}
+
+.input_reg{
+    margin-bottom: 10px;
+    margin-top: 50px;
+    max-height: 60px;
+    width: 205px;
+    height: 30px;
+    max-width: 405px;
+    border-radius: 5px;
+    border: 1px solid #909090;
+    font-size: 16px;
+    padding: 5px;
+}
+
+.btn{
+    background-color: yellow;
+    padding: 10px 15px;
+    border-radius: 10px;
+    margin: 10px 0px 10px 0px;
+    border: transparent;
+    font-size: 18px;
+    border: 1px solid transparent;
+    font-size: 18px;
+    transition: 0.5s;
+}
+
+.button__go{
+    margin-top: 30px;
+    padding: 40px 60px;
+    background-color: orange;
+    border-radius: 25px;
+    font-size: 24px;
+    border: transparent;
+    color: #fff;
+    border: 2px solid transparent;
+    font-size: 24px;
+    transition: 0.5s;
+    margin-left: 55px;
+    margin-bottom: 30px;
+}
+
+.title-test{
+    margin-bottom: 50px;
+}
+
+.reg__button:hover{
+    background-color: transparent;
+    border: 1px solid #999999;
+}
+
+.btn:hover{
+    background-color: transparent;
+    border: 1px solid #999999;
+}
+
+.button__go:hover{
+    background-color: #d6b725;
+    opacity: 0.8;
+    border: 2px solid #d8bb63;
+}
+
+.btn_inner{
+    display: flex;
+    justify-content: space-between;
+}
+
+.back_btn{
+    margin-top: 30px;
+    margin-left: 115px;
+    font-size: 18px;
+    transition: 0.3s ease-in;
+}
+
+.back_btn:hover{
+    opacity: 0.8;
+}
