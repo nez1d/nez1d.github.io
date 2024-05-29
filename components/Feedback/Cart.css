@@ -1,0 +1,142 @@
+.cart{
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.cart__element{
+    margin: 10px;
+    max-width: 1150px;
+    max-height: 107px;
+    background-color: #fff;
+    display: flex;
+    border-radius: 18px;
+}
+
+.products__element-img{
+    max-width: 130px;
+    margin-left: 15px;
+}
+
+.title{
+    margin: 15px 15px 0 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.products__element-name{
+    font-size: 16px;
+    font-weight: normal;
+    width: 830px;
+    min-width: 809;
+    max-width: 830px;
+    height: 35px;
+    max-height: 35px;
+}
+
+.products__element-price{
+    font-size: 24px;
+}
+
+.cart__element__inner-content{
+    display: flex;
+    margin-top: 5px;
+}
+
+.products__element-stars{
+    padding: 3px 5px 1px 5px;
+    border: 1px solid #000;
+    border-radius: 9px;
+    margin-top: 5px;
+    margin-left: 15px;
+}
+
+.products__element-img-star{
+    position: relative;
+    top: 4px;
+}
+
+.products__element-btn__like{
+    background-color: #D9D9D9;
+    border-radius: 8px;
+    border: transparent;
+    max-width: 36px;
+    max-height: 36px;
+    width: 36px;
+    height: 36px;
+    transition: .2s ease-in;
+    cursor: pointer;
+    position: relative;
+    top: 4px;
+}
+
+.products__element-btn__like:hover{
+    background-color: #eaeaea;
+}
+
+.products__element-img-like{
+    margin-top: 3px;
+}
+
+.products__element-btn__buy{
+    background-color: #F6E908;
+    padding: 9px 21px;
+    border-radius: 9px;
+    border: transparent;
+    font-size: 14px;
+    text-transform: uppercase;
+    max-height: 36px;
+    height: 36px;
+    margin-right: 20px;
+    margin-left: 12px;
+    transition: .3s ease-in;
+    cursor: pointer;
+}
+
+.products__element-btn__buy:hover{
+    background-color: #d2e101;
+}
+
+.cart__element__inner-content{
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.products__element-btn__cart{
+    background-color: transparent;
+    padding: 9px 21px;
+    border-radius: 9px;
+    border: 1px solid #909090;
+    font-size: 14px;
+    text-transform: uppercase;
+    max-height: 36px;
+    height: 36px;
+    margin-left: 12px;
+    transition: .3s ease-in;
+}
+
+.products__element-btn__cart:hover{
+    cursor: pointer;
+}
+
+.back_btn-inner{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.back_btn_cart{
+    position: relative;
+    padding: 15px 20px;
+    background-color: #fff;
+    border-radius: 18px;
+    font-weight: 500;
+    margin-left: 50px;
+    top: 20px;
+    transition: .3s ease-in;
+    color: #202020;
+}
+
+.back_btn_cart:hover{
+    opacity: 0.9;
+}
